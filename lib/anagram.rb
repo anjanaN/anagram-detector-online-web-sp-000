@@ -7,7 +7,7 @@ class Anagram
   end
 
   def match(list)
-    
+    list.each {|x| x.split("")}
   end
 
 end
