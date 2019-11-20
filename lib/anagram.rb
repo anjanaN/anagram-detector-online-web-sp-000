@@ -9,6 +9,7 @@ class Anagram
   def match(list)
     list.collect do |word|
       word.split("")
+    end
   end
 
 end
